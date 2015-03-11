@@ -16,9 +16,14 @@ public class Play {
      */
     public static void main(String[] args) {
         
-        Deck deck = new Deck();
+        Deck deck = new Deck(true);
         
+        System.out.println("Game 1");
+        deck.show();
         
+        System.out.println("Game 2");
+        deck.shuffle();      
+        deck.show();
         
     }
     
