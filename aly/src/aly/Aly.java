@@ -39,6 +39,7 @@ public class Aly {
         
         
         Scanner in = new Scanner(System.in);
+        
         System.out.println("Welcome to the NHL play by play event scraper."
                 + " The system will get events for the specified game for the specified "
                 + "event type");
@@ -64,8 +65,6 @@ public class Aly {
                 } else {
 
                     boolean validShot = false;
-                    System.out.println("Game Number: " + gameNumber);
-
                     System.out.println("Please enter a valid event type: ");
                     eventType = in.nextLine();
 
